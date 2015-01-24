@@ -4,8 +4,8 @@ public class Example {
 
 	public static void main(String[] args) 
 	{
-		Recursion.reverse("Madam");//Check MyString/Recursion.java for code
+		Recursion obj=new Recursion();
+		System.out.print(obj.reverse("Madam"));//Check MyString/Recursion.java for code
 		// TODO Auto-generated method stub
 	}
-
 }
