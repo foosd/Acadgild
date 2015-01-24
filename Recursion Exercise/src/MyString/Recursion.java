@@ -2,9 +2,11 @@ package MyString;
 
 public class Recursion 
 {
-	String ch="";
+	String ch = "";
 	public String reverse(String obj)
 	{
+		try
+		{
 		int n=obj.length();
 		ch= ch+Character.toString(obj.charAt(n-1));
 		n--;
@@ -13,6 +15,9 @@ public class Recursion
 		{
 			reverse(obj);
 		}
+		}
+		catch(Exception e)
+		{}
 		return ch;
 	}
 }
