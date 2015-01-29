@@ -7,6 +7,7 @@ public class challenge4 {
 		int b[][]={{8,6,1},{4,6,7}};
 		try
 		{
+			System.out.println("A x B");
 			for(int i=0;i<a.length;i++)
 			{
 				for(int j=0;j<b[0].length;j++)
