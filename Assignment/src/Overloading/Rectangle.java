@@ -17,9 +17,8 @@ public class Rectangle {
 	}
 
 	public static void main(String[] args) {
-		Rectangle obj=new Rectangle(5);
-		Rectangle obj2=new Rectangle(5, 8);
-		// TODO Auto-generated method stub
+		new Rectangle(5);
+		new Rectangle(5, 8);
 	}
 
 }
